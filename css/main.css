@@ -1024,9 +1024,7 @@ span {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-div {
-  margin-left: auto;
-}
+
 .footer-div__icon-telegram {
   margin-left: 10px;
   fill: #FFFFFF;
