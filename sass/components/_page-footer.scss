@@ -59,7 +59,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.last-ftr__email {
+.last-ftr__email, .last-ftr__number  {
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
@@ -71,20 +71,6 @@
     transition-duration: 250ms;
     transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.last-ftr__number {
-    color: var(--primary-text-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color;
 }
 
 
@@ -93,11 +79,8 @@
     color: var(--accent-color);
 }
 
-.last-ftr__email:hover,
-.last-ftr__email:focus {
-    color: var(--accent-color)
-}
-
+.last-ftr__email:hover, 
+.last-ftr__email:focus,
 .last-ftr__number:hover,
 .last-ftr__number:focus {
     color: var(--accent-color)

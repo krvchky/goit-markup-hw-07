@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1200px;
+
+}
+
+body {
+    background-color: var(--second-background-color);
+    color: var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio__modal-btn,
+.hero-button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.visibility {
+    visibility: hidden;
+}

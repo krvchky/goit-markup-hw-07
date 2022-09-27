@@ -29,12 +29,15 @@
     
             outline: none;
             background: rgba(255, 255, 255, 0.1);
+            color: #AFB1B8;
     
             transition-duration: 250ms;
-            transition-property: color background;
+            transition-property: color, background-color;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
 }
+
+
 
 
 .social-medias__social-link:hover .social-medias__social-icon,
@@ -52,11 +55,12 @@
 }
 
 .social-medias__social-icon {
-    fill: #afb1b8;
-}
+    fill: currentColor;
 
-.social-medias__social-icon:hover {
-    background-color: #2196F3;
+    &__social-icon:hover,
+    &__social-icon:focus {
+        background-color: #2196F3;
+    }
 }
 
 
